@@ -1,0 +1,74 @@
+{
+    "name": "InfantryInputMap",
+    "maps": [
+        {
+            "name": "Infantry",
+            "id": "c2fabcc1-a9c3-4b21-8a7e-613722ebebb5",
+            "actions": [
+                {
+                    "name": "PrimaryMouseClick",
+                    "type": "Button",
+                    "id": "0600f4f5-e479-465c-9181-7d4e85b0d89c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NextWeapon",
+                    "type": "Value",
+                    "id": "ab9b47ce-a774-4933-804f-927559eaf1c1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PreviousWeapon",
+                    "type": "Value",
+                    "id": "993c2c45-848d-4bd4-8b1e-c3abb1594a62",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d481a8ce-0d57-4aca-87bc-008e3292ef3f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryMouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a888a361-a19b-4ecc-ae84-68bef5d81a34",
+                    "path": "<Mouse>/scroll/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cbc5f073-0a2b-407b-96db-d6e129a17940",
+                    "path": "<Mouse>/scroll/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PreviousWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
